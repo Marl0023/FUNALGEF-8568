@@ -43,7 +43,7 @@ namespace AlquilerCarros
                     cliente[i] = cliente[i + 1];
                 }
                 cliente[--contador] = null;
-                Console.WriteLine("Cliente eliminado con éxito.");
+                Console.WriteLine("Cliente eliminado con éxito..");
             }
             else
             {
