@@ -23,7 +23,7 @@ namespace AlquilerCarros
         }
         public static void ListarClientes(Cliente[] clientes, int contador)
         {
-            Console.WriteLine("=== Lista de Clientes ===");
+            Console.WriteLine("===  Lista de Clientes  ===");
             for (int i = 0; i < contador; i++)
             {
                 Console.WriteLine($"* {i}. {clientes[i]} *");
@@ -47,7 +47,7 @@ namespace AlquilerCarros
             }
             else
             {
-                Console.WriteLine("Índice inválido.");
+                Console.WriteLine("Índice inválido..");
             }
         }
     }
